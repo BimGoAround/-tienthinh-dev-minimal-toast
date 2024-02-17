@@ -1,0 +1,15 @@
+.minimal-toast__wrapper {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 160px;
+  padding: 16px;
+  background-color: rgba(175, 175, 175, 0.32);
+  border-radius: 4px;
+  box-shadow: -3px -3px 10px -10px rgba(30,30,30,0.6);
+  -webkit-box-shadow: -3px -3px 10px -10px rgba(30,30,30,0.6);
+  -moz-box-shadow: -3px -3px 10px -10px rgba(30,30,30,0.6);
+  z-index: 2147483647; /* max z-index */
+
+  font-size: 12px;
+}
