@@ -23,6 +23,6 @@ jobs:
       - name: install
         run: yarn install
       - name: publish
-        run: yarn publish --access public
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPMJS_ACCESS_TOKEN}}

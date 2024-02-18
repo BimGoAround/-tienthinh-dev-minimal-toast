@@ -1,6 +1,6 @@
 {
   "name": "@tienthinh-dev/minimal-toast",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "packageManager": "yarn@1.22.21",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
@@ -35,8 +35,7 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build": "rollup -c",
-    "publish": "npm publish"
+    "build": "rollup -c"
   },
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
