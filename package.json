@@ -1,6 +1,6 @@
 {
   "name": "@tienthinh-dev/minimal-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "yarn@4.1.0",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
